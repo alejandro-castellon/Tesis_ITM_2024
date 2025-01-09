@@ -1,0 +1,123 @@
+% No modificar estas líneas de código, por favor dirigirse a MARCO METODOLÓGICO
+
+\newpage
+
+%------------------------
+%
+%       MARCO METODOLÓGICO 
+%
+%------------------------
+
+\section{MARCO METODOLÓGICO}
+Este capítulo detalla la metodología empleada en la ejecución del presente proyecto. Se abordarán aspectos fundamentales como el tipo de investigación, el alcance del estudio, el diseño metodológico elegido, el objeto de estudio, las variables de investigación, así como las técnicas e instrumentos utilizados para la recolección de datos. También se mencionarán las fuentes de información consultadas y, por último, las actividades y tareas planificadas. Esta estructura metodológica ha sido concebida para garantizar la coherencia en el proceso de investigación, proporcionando una base sólida que permita obtener resultados válidos y significativos.
+
+
+\subsection{Tipo de investigación}
+Se adoptará un enfoque cuantitativo, ya que el problema de investigación ha sido previamente cuantificado. La pregunta de investigación se enfoca en la centralización de datos provenientes de autoclaves para habilitar la operación remota de las mismas. Al finalizar el proyecto, se pretende evaluar cuantitativamente la eficacia de la centralización de datos mediante un sistema de monitoreo basado en \acrshort{iot}.
+
+\subsection{Alcance de investigación}
+Visto a que se presenta la investigación cuantitativa, el alcance empleará un enfoque descriptivo. Se describen métricas como protocolos de comunicación, al igual que otros parámetros más técnicos como interfaz, aplicaciones web, entre otros.
+
+\subsection{Diseño de la investigación}
+Esta investigación es de tipo experimental, dado que implica la recolección de datos para su análisis. El objetivo es examinar las variables involucradas, así como su influencia e interrelación entre las variables independientes y dependientes.
+
+\subsection{Objeto de estudio}
+El objeto de interés será la relación que existe entre el acceso a los datos en tiempo real de la autoclave y el modelo de mantenimiento predictivo para el monitoreo en tiempo real de autoclaves en la empresa \acrshort{itm}. 
+
+\subsection{Variables}
+\begin{itemize}
+    \item La variable independiente: datos en tiempo real sobre el rendimiento y estado operativo de las autoclaves de la empresa \acrshort{itm}.
+   
+    
+    \item La variable dependiente: Modelo de mantenimiento predictivo.
+    
+\end{itemize}
+
+\subsection{Técnicas e instrumentos de la recolección de datos}
+Entre las herramientas de recolección de datos para el proyecto se puede mencionar las entrevistas realizadas al personal de mantenimiento , al gerente de la empresa \acrshort{itm}.
+
+También podemos mencionar la observación directa al realizar visitas de campo para observar el funcionamiento de las autoclaves en su entorno natural y el proceso de mantenimiento actual. Esto ayuda a obtener datos sobre el uso y estado físico de las autoclaves y facilita la identificación de variables clave para el sistema de monitoreo.
+
+Un análisis documental al revisar documentos técnicos de la empresa \acrshort{itm} sobre el historial de mantenimiento y fallas de las autoclaves. Esto puede incluir registros de mantenimiento, reportes de reparación y manuales de operación. Estos datos ayudan a establecer patrones de fallas y a definir parámetros de monitoreo.
+
+Los instrumentos de monitoreo \acrshort{iot} también son importantes, ya que al utilizar sensores de temperatura, presión y humedad para capturar datos en tiempo real del estado de las autoclaves. Estos sensores son fundamentales para el sistema de monitoreo remoto y proporcionan datos cuantitativos precisos para análisis predictivo.
+
+Y por último, las pruebas de campo, esto al momento de implementar una versión preliminar del sistema de monitoreo en una autoclave para evaluar su eficacia y obtener datos sobre el rendimiento en condiciones reales.
+
+\subsection{Fuentes de información}
+Para el desarrollo de este proyecto, se emplearon tanto fuentes primarias como secundarias. Las fuentes primarias incluyeron entrevistas realizadas en la empresa \acrshort{itm}, donde se obtuvo información directa sobre los procedimientos actuales de diagnóstico y mantenimiento de autoclaves. Estas entrevistas permitieron comprender las necesidades específicas y los desafíos técnicos de la implementación de un sistema de monitoreo remoto en este contexto. Por otro lado, las fuentes secundarias consistieron en una revisión de literatura que abarcó artículos científicos, tesis y publicaciones en revistas especializadas en mantenimiento predictivo, sistemas \acrshort{iot}, y tecnología de monitoreo remoto en dispositivos industriales. Estas fuentes secundarias proporcionaron el marco teórico y metodológico que fundamenta el diseño propuesto del sistema de monitoreo.
+
+\subsection{Actividades y tareas}
+Para el correcto seguimiento del proyecto se desarrolló una tabla de actividades y tareas a cumplir por cada objetivo específico.
+
+\begin{table}
+\centering
+\caption{Tabla de actividades y tareas}
+\label{tab:actividades}
+\resizebox{14.5cm}{!}{
+\begin{tabular}{|l|l|l|} 
+\hline
+\rowcolor[rgb]{0.678,0.702,0.698} \multicolumn{1}{|c|}{\textbf{ Objetivo Específico }}                                                                                                                              & \multicolumn{1}{c|}{\textbf{Actividades }}                                                                       & \multicolumn{1}{c|}{\textbf{Tareas }}                                                                                     \\ 
+\hline
+\multirow{5}{*}{\begin{tabular}[c]{@{}l@{}}Determinar los requerimientos \\técnicos y funcionales para la \\implementación del~sistema de \\monitoreo de autoclaves.\end{tabular}}                                  & \multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Recopilación de \\información.\end{tabular}}                          & \begin{tabular}[c]{@{}l@{}}Consultar libros, tesis y \\artículos científicos.\end{tabular}                                \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Formular preguntas guía\\para entrevistas.\end{tabular}                                        \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & Entrevistar a expertos en el área.                                                                                        \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{2}{*}{Estudio de información.}                                                                         & \begin{tabular}[c]{@{}l@{}}Sustraer las necesidades y \\requerimientos.\end{tabular}                                      \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Identificar las funcionalidades \\para el sistema de monitoreo.\end{tabular}                   \\ 
+\hline
+\multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Desarrollar la aplicación web \\que permita la visualización y \\gestión en tiempo real del estado \\de las autoclaves.\end{tabular}}                                    & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Diseño de la aplicación \\web.\end{tabular}}                          & \begin{tabular}[c]{@{}l@{}}Plantear tecnologías web \\adecuadas para la aplicación.\end{tabular}                          \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Definir la estructura de la interfaz\\de usuario.\end{tabular}                                 \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Implementación de la \\interfaz.\end{tabular}}                        & \begin{tabular}[c]{@{}l@{}}Programar componentes para\\la visualización de datos.\end{tabular}                            \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Integrar módulos de control para \\la operación remota de autoclaves.\end{tabular}             \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Pruebas de funcionalidad \\de la aplicación.\end{tabular}}            & \begin{tabular}[c]{@{}l@{}}Realizar pruebas de la interfaz \\en diferentes dispositivos.\end{tabular}                     \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Recopilar retroalimentación y \\ajustar la interfaz según resultados.\end{tabular}             \\ 
+\hline
+\multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Establecer una infraestructura \\segura para la transmisión y \\almacenamiento de datos desde \\las autoclaves hasta la plataforma \\central de monitoreo.\end{tabular}} & \multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Definición de la \\arquitectura de red.\end{tabular}}                 & \begin{tabular}[c]{@{}l@{}}Seleccionar protocolos de\\comunicación y seguridad adecuados.\end{tabular}                    \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Definir mecanismos de encriptación \\para la transmisión de datos\end{tabular}                 \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Elaborar el diagrama esquemático\\de conexiones.\end{tabular}                                  \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Implementación de la \\infraestructura.\end{tabular}}                 & Configurar el broker de comunicación.                                                                                     \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & Configurar y asegurar la base de datos.                                                                                   \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Realizar la conexión entre los \\diferentes componentes.\end{tabular}                          \\ 
+\hline
+\multirow{7}{*}{\begin{tabular}[c]{@{}l@{}}Integrar el dispositivo IoT en las \\autoclaves para la recolección y \\transmisión continua de datos \\en tiempo real.\end{tabular}}                                    & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Diseño del sistema \\electrónico.\end{tabular}}                       & \begin{tabular}[c]{@{}l@{}}Seleccionar el microcontrolador \\y otros componentes necesarios.\end{tabular}                 \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Crear el esquema de conexión para \\comunicarse con la placa del autoclave.\end{tabular}       \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{3}{*}{Desarrollo del circuito.}                                                                        & \begin{tabular}[c]{@{}l@{}}Elaborar el diagrama del \\circuito electrónico.\end{tabular}                                  \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & Diseñar y fabricar la PCB.                                                                                                \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & Soldar componentes a la PCB.                                                                                              \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Implementación del \\sistema de recolección \\de datos.\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Programar el dispositivo IoT para \\recoger y enviar datos en tiempo real.\end{tabular}        \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Evaluar la comunicación entre el \\dispositivo IoT y la autoclave.\end{tabular}                \\ 
+\hline
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Validar los resultados de \\pruebas de funcionalidad del \\sistema en ambientes controlados.\end{tabular}}                                                               & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Planificación de pruebas \\controladas.\end{tabular}}                 & \begin{tabular}[c]{@{}l@{}}Definir métricas para evaluar \\el rendimiento del sistema.\end{tabular}                       \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Diseñar escenarios de prueba que \\simulen fallos en las autoclaves.\end{tabular}              \\ 
+\cline{2-3}
+                                                                                                                                                                                                                    & \multirow{2}{*}{Ejecución de pruebas.}                                                                           & \begin{tabular}[c]{@{}l@{}}Configurar ambiente controlado para la \\simulación de condiciones de operación.\end{tabular}  \\ 
+\cline{3-3}
+                                                                                                                                                                                                                    &                                                                                                                  & \begin{tabular}[c]{@{}l@{}}Recopilar y analizar los datos \\obtenidos durante las pruebas.\end{tabular}                   \\
+\hline
+\end{tabular}
+}
+{\textbf{Fuente: }Elaboración propia (2024).}
+\end{table}
+
+

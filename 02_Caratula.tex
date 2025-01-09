@@ -1,0 +1,82 @@
+% No es necesario realizar ninguna modificación en este archivo. 
+% Si se lo realiza es bajo la responsabilidad del editor, siendo que podrá alterar el formato de la institución. 
+
+\begin{titlepage}
+
+    \begin{center}          % Centrar texto
+        
+            \hfill\par    
+            \vspace{0mm} % añadir espacio
+        % Logotipo
+        \begin{figure}[h]
+            \begin{center}
+                \includegraphics[height=5cm,width=12cm]{{PDFs/Imagotipo_horizontal_color.pdf}}
+            \end{center}
+        \end{figure}\par
+        
+            \newfontfamily{\FedraSansN}{Fedra_Sans_Std_Normal.ttf}
+            \definecolor{UCBblue}{rgb}{0.004, 0.251, 0.467}
+        
+        % Departamento
+        \textcolor{UCBblue}{\FedraSansN\fontsize{14}{16.8}\selectfont{\departamento}}\\
+        % Carrera
+        \textcolor{UCBblue}{\FedraSansN\fontsize{14}{16.8}\selectfont{Carrera de \carrera}}
+        
+            \vspace{3cm} % añadir espacio
+            \vspace{\fill}
+            
+        % Título de la tesis
+        {\fontsize{16}{19.2}\selectfont{\textbf{\thetitle}}\par}
+            
+            \vspace{1.7cm} % añadir espacio
+            
+        % Tipo de titulación
+        {\fontsize{12}{14.4}\selectfont{{\textit{\titulacion \ de \grado \ en \carrera}}}\par}
+            
+            \vspace{1.4cm} % añadir espacio
+            
+        % Autor(es)
+        {\fontsize{14}{16.8}\selectfont{\textbf{\theauthor}}}
+            
+            \vspace{1.3cm} % añadir espacio
+            
+        % Lugar
+        {\fontsize{12}{14.4}\selectfont{\unidad \ - Bolivia}}
+            
+            \vspace{1.2mm} % añadir espacio
+            
+        % Fecha
+        {\fontsize{12}{14.4}\selectfont{\thedate}}
+            
+
+    \end{center}
+
+\end{titlepage}
+
+%------------------------------------------------------------------------------------------------
+
+\newpage
+\begin{center}
+   \textbf{TRIBUNAL EXAMINADOR} 
+
+    \begin{textblock}{5}(2.5,5)
+    \noindent\rule{6.5cm}{0.4pt}
+    \ifdef{\tutor}{\textbf{\\\tutor\\Profesor Guía}\par}{\textbf{\\\tutora\\Profesora Guía}\par}
+    \end{textblock}
+    
+    \begin{textblock}{5}(8.5,5)
+    \noindent\rule{6.5cm}{0.4pt}
+    \ifdef{\relator}{\textbf{\\\relator\\Profesor Relator}\par}{\textbf{\\\relatora\\Profesora Relatora}\par}
+    \end{textblock}
+    
+    \begin{textblock}{5}(2.5,9.5)
+    \noindent\rule{6.5cm}{0.4pt}
+    \ifdef{\director}{\textbf{\\\director\\Director de Carrera}\par}{\textbf{\\\directora\\Directora de Carrera}\par}
+    \end{textblock}
+    
+    \begin{textblock}{5}(8.5,9.5)
+    \noindent\rule{6.5cm}{0.4pt}
+    \ifdef{\rector}{\textbf{\\\rector\\Rector Regional}\par}{\textbf{\\\rectora\\Rectora Regional}\par}
+    \end{textblock}
+
+\end{center}
